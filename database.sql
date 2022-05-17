@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS gso;
+USE gso;
+
+CREATE TABLE Pessoa(
+    id_pessoa INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    nascimento DATE NULL
+);
+
